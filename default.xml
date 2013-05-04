@@ -366,7 +366,7 @@
   <project path="frameworks/base" name="Domination-42/android_frameworks_base" revision="Domination" />
   <project path="frameworks/opt/telephony" name="Domination-42/android_frameworks_opt_telephony" revision="Domination" />
   <project path="external/webkit" name="Domination-42/android_external_webkit" revision="Domination" />
-  <project path="external/openssh" name="Domination-42/android_external_openssl" revision="Domination" />
+  <project path="external/openssh" name="Domination-42/android_external_openssh" revision="Domination" />
   <project path="external/v8" name="Domination-42/android_external_v8" revision="Domination" />
   <project path="external/wpa_supplicant_8" name="Domination-42/android_external_wpa_supplicant_8" revision="Domination" />
   <project path="external/stlport" name="Domination-42/android_external_stlport" revision="Domination" />
