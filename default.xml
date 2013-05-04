@@ -11,17 +11,6 @@
   <remote  name="cfx" 
 		   fetch="https://bitbucket.org/codefirex"  />
 
-  <remote  name="aokp"
-           fetch="https://github.com/"
-           review="gerrit.sudoservers.com" />
-
-  <remote  name="pub"
-           fetch="https://github.com/" />
-
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
-           review="review.cyanogenmod.com" />
-
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -112,6 +101,7 @@
   <project path="external/jhead" name="CyanogenMod/android_external_jhead" />
   <project path="external/jmdns" name="CyanogenMod/android_external_jmdns" />
   <project path="external/jmonkeyengine" name="CyanogenMod/android_external_jmonkeyengine" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" />
   <project path="external/jsilver" name="CyanogenMod/android_external_jsilver" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
@@ -218,17 +208,14 @@
   <project path="frameworks/opt/mailcommon" name="CyanogenMod/android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
-  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
-  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
@@ -326,10 +313,10 @@
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
   <!-- 4.7 -->
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="darwin,arm" revision="master" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="darwin,arm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="darwin,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="darwin,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" remote="aosp" revision="master" />
 
   <!-- PA -->
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jellybean" />
@@ -338,7 +325,6 @@
 
   <!-- PAC -->
   <project path="packages/apps/Calendar" name="PAC-man/android_packages_apps_Calendar" />
-  <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" />
   <project path="packages/apps/Mms" name="PAC-man/android_packages_apps_Mms" />
   <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
@@ -347,6 +333,7 @@
 
   <!-- Domination -->
   <project path="packages/apps/Phone" name="Domination-42/android_packages_apps_Phone" revision="Domination" />
+  <project path="packages/apps/Contacts" name="Domination-42/android_packages_apps_Contacts" revision="Domination" />
   <project path="packages/apps/Settings" name="Domination-42/android_packages_apps_Settings" revision="Domination" />
   <project path="packages/apps/Browser" name="Domination-42/android_packages_apps_Browser" revision="Domination" />
   <project path="packages/apps/HwaSettings" name="Domination-42/android_packages_apps_HwaSettings" revision="Domination" />
@@ -362,7 +349,7 @@
   <project path="frameworks/av" name="Domination-42/android_frameworks_av" revision="Domination" />
   <project path="frameworks/rs" name="Domination-42/android_frameworks_rs" revision="Domination" />
   <project path="frameworks/wilhelm" name="Domination-42/android_frameworks_wilhelm" revision="Domination" />
-  <project path="frameworks/compile/mclinker" name="Domination-42/android_frameworks_mclinker" revision="Domination" />
+  <project path="frameworks/compile/mclinker" name="Domination-42/android_frameworks_compile_mclinker" revision="Domination" />
   <project path="frameworks/base" name="Domination-42/android_frameworks_base" revision="Domination" />
   <project path="frameworks/opt/telephony" name="Domination-42/android_frameworks_opt_telephony" revision="Domination" />
   <project path="external/webkit" name="Domination-42/android_external_webkit" revision="Domination" />
@@ -374,7 +361,6 @@
   <project path="external/ping" name="Domination-42/android_external_ping" revision="Domination" />
   <project path="external/oprofile" name="Domination-42/android_external_oprofile" revision="Domination" />
   <project path="external/openssl" name="Domination-42/android_external_openssl" revision="Domination" />
-  <project path="external/jpeg" name="Domination-42/android_external_jpeg" revision="Domination" />
   <project path="external/e2fsprogs" name="Domination-42/android_external_e2fsprogs" revision="Domination" />
   <project path="external/dnsmasq" name="Domination-42/android_external_dnsmasq" revision="Domination" />
   <project path="external/chromium" name="Domination-42/android_external_chromium" revision="Domination" />
@@ -384,28 +370,29 @@
   <project path="vendor/pac" name="Domination-42/android_vendor_pac" revision="Domination" />
   <project path="hardware/ti/omap4xxx" name="Domination-42/android_hardware_ti_omap4xxx" revision="Domination" />
   <project path="hardware/ril" name="Domination-42/android_hardware_ril" revision="Domination" />
+  <project path="hardware/invensense" name="Domination-42/android_hardware_invensense" revision="Domination" />
   <project path="domination" name="Domination-42/domination" revision="Domination" >
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
 
   <!-- qcom -o3 -->
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="UnicornButter/hardware_qcom_display" remote="pub" revision="jb-mr1" />
-  <project path="hardware/qcom/display-caf" name="UnicornButter/hardware_qcom_display-caf" remote="pub" revision="jb-mr1" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1"/>
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster"/>
-  <project path="hardware/qcom/media" name="UnicornButter/hardware_qcom_media" remote="pub" revision="jb-mr1" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960"/>
-  <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
+  <project path="hardware/qcom/display" name="UnicornButter/hardware_qcom_display" revision="jb-mr1" />
+  <project path="hardware/qcom/display-caf" name="UnicornButter/hardware_qcom_display-caf" revision="jb-mr1" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="hardware/qcom/media" name="UnicornButter/hardware_qcom_media" revision="jb-mr1" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" revision="jb-mr1" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
   <!-- AOKP-->
-  <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
+  <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" revision="jb-mr1" />
+  <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" revision="jb-mr1" />
 
   <!-- Tuna -->
   <project path="device/samsung/tuna" name="Domination-42/android_device_samsung_tuna" revision="Domination" />
