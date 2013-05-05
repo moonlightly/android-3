@@ -131,7 +131,6 @@
   <project path="external/libyuv" name="CyanogenMod/android_external_libyuv" />
   <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" />
   <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" />
-  <project path="external/llvm" name="CyanogenMod/android_external_llvm" />
   <project path="external/lohit-fonts" name="CyanogenMod/android_external_lohit-fonts" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
@@ -152,7 +151,6 @@
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" />
   <project path="external/opencv" name="CyanogenMod/android_external_opencv" />
   <project path="external/openfst" name="CyanogenMod/android_external_openfst" />
-  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
@@ -365,6 +363,8 @@
   <project path="external/dnsmasq" name="Domination-42/android_external_dnsmasq" revision="Domination" />
   <project path="external/chromium" name="Domination-42/android_external_chromium" revision="Domination" />
   <project path="external/busybox" name="Domination-42/android_external_busybox" revision="Domination" />
+  <project path="external/openvpn" name="Domination-42/android_external_openvpn" revision="Domination" />
+  <project path="external/llvm" name="Domination-42/android_external_llvm" revision="Domination" />
   <project path="external/bluetooth/bluedroid" name="Domination-42/android_external_bluetooth_bluedroid" revision="Domination" />
   <project path="vendor/cm" name="Domination-42/android_vendor_cm" revision="Domination" />
   <project path="vendor/pac" name="Domination-42/android_vendor_pac" revision="Domination" />
