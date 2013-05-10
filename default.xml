@@ -132,7 +132,6 @@
   <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" />
   <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" />
   <project path="external/lohit-fonts" name="CyanogenMod/android_external_lohit-fonts" />
-  <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/markdown" name="CyanogenMod/android_external_markdown" />
   <project path="external/mdnsresponder" name="CyanogenMod/android_external_mdnsresponder" />
@@ -366,6 +365,7 @@
   <project path="external/openvpn" name="Domination-42/android_external_openvpn" revision="Domination" />
   <project path="external/llvm" name="Domination-42/android_external_llvm" revision="Domination" />
   <project path="external/bluetooth/bluedroid" name="Domination-42/android_external_bluetooth_bluedroid" revision="Domination" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="vendor/cm" name="Domination-42/android_vendor_cm" revision="Domination" />
   <project path="vendor/domination" name="Domination-42/android_vendor_domination" revision="Domination" />
   <project path="hardware/ti/omap4xxx" name="Domination-42/android_hardware_ti_omap4xxx" revision="Domination" />
