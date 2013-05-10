@@ -394,11 +394,6 @@
   <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" revision="jb-mr1" />
 
-  <!-- Tuna -->
-  <project path="device/samsung/tuna" name="Domination-42/android_device_samsung_tuna" revision="Domination" />
-  <project path="device/samsung/maguro" name="Domination-42/android_device_samsung_maguro" revision="Domination" />
-  <project path="kernel/samsung/tuna" name="Domination-42/android_kernel_samsung_tuna" revision="Domination" />
-
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1_old" />
   <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" revision="cm-10.1_old" />
