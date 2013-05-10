@@ -365,7 +365,7 @@
   <project path="external/openvpn" name="Domination-42/android_external_openvpn" revision="Domination" />
   <project path="external/llvm" name="Domination-42/android_external_llvm" revision="Domination" />
   <project path="external/bluetooth/bluedroid" name="Domination-42/android_external_bluetooth_bluedroid" revision="Domination" />
-  <project path="external/lsof" name="Domination-42//android_external_lsof" revision="Domination" />
+  <project path="external/lsof" name="Domination-42/android_external_lsof" revision="Domination" />
   <project path="vendor/cm" name="Domination-42/android_vendor_cm" revision="Domination" />
   <project path="vendor/domination" name="Domination-42/android_vendor_domination" revision="Domination" />
   <project path="hardware/ti/omap4xxx" name="Domination-42/android_hardware_ti_omap4xxx" revision="Domination" />
