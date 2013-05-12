@@ -393,6 +393,8 @@
   <!-- AOKP-->
   <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" revision="jb-mr1" />
+  <project path="packages/apps/PermissionsManager" name="AOKP/packages_apps_PermissionsManager" revision="jb-mr1" />
+
 
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1_old" />
