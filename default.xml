@@ -221,7 +221,6 @@
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
@@ -320,7 +319,9 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
 
   <!-- PAC -->
+  <project path="packages/apps/Calculator" name="PAC-man/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="PAC-man/android_packages_apps_Calendar" />
+  <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" />
   <project path="packages/apps/Mms" name="PAC-man/android_packages_apps_Mms" />
   <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
@@ -330,7 +331,6 @@
   <!-- Domination -->
   <project path="packages/apps/Phone" name="Domination-42/android_packages_apps_Phone" revision="Domination" />
   <project path="packages/apps/Camera" name="Domination-42/android_packages_apps_Camera" revision="Domination" />
-  <project path="packages/apps/Contacts" name="Domination-42/android_packages_apps_Contacts" revision="Domination" />
   <project path="packages/apps/Settings" name="Domination-42/android_packages_apps_Settings" revision="Domination" />
   <project path="packages/apps/Browser" name="Domination-42/android_packages_apps_Browser" revision="Domination" />
   <project path="packages/apps/HwaSettings" name="Domination-42/android_packages_apps_HwaSettings" revision="Domination" />
