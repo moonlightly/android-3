@@ -374,7 +374,7 @@
   <project path="DenseChangelog" name="Domination-42/DenseChangelog" revision="Domination" />
   <project path="domination" name="Domination-42/domination" revision="Domination" >
     <copyfile dest="build.sh" src="build.sh"/>
-    <copyfile dest="DyanamicChangelog.sh" src="DyanamicChangelog.sh"/>
+    <copyfile dest="DynamicChangelog.sh" src="DynamicChangelog.sh"/>
     <copyfile dest="changelog.sh" src="changelog.sh"/>
   </project>
 
