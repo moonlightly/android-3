@@ -371,6 +371,7 @@
   <project path="hardware/ti/omap4xxx" name="Domination-42/android_hardware_ti_omap4xxx" revision="Domination" />
   <project path="hardware/ril" name="Domination-42/android_hardware_ril" revision="Domination" />
   <project path="hardware/invensense" name="Domination-42/android_hardware_invensense" revision="Domination" />
+  <project path="DenseChangelog" name="Domination-42/DenseChangelog" revision="Domination" />
   <project path="domination" name="Domination-42/domination" revision="Domination" >
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="DyanamicChangelog.sh" src="DyanamicChangelog.sh"/>
