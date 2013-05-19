@@ -31,10 +31,10 @@ How to get a changelog of the commits between your latest build and now?
 
 it is easy just execute this command:
 
-    ./build.sh MM/dd/yyyy
+    ./changelog.sh MM/dd/yyyy
 
 for example if i've build my latest release on april 24 of 2013 and i want a changelog for my release i just do this:
 
-    ./build.sh 04/24/2013
+    ./changelog.sh 04/24/2013
 
 
