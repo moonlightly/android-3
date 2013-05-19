@@ -373,6 +373,8 @@
   <project path="hardware/invensense" name="Domination-42/android_hardware_invensense" revision="Domination" />
   <project path="domination" name="Domination-42/domination" revision="Domination" >
     <copyfile dest="build.sh" src="build.sh"/>
+    <copyfile dest="DyanamicChangelog.sh" src="DyanamicChangelog.sh"/>
+    <copyfile dest="changelog.sh" src="changelog.sh"/>
   </project>
 
   <!-- qcom -o3 -->
