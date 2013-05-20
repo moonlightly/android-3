@@ -76,7 +76,6 @@
   <project path="external/fat32lib" name="CyanogenMod/android_external_fat32lib" />
   <project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" />
-  <project path="external/freetype" name="CyanogenMod/android_external_freetype" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
   <project path="external/ganymed-ssh2" name="CyanogenMod/android_external_ganymed-ssh2" />
   <project path="external/gcc-demangle" name="CyanogenMod/android_external_gcc-demangle" />
@@ -319,7 +318,6 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
 
   <!-- PAC -->
-  <project path="packages/apps/Calculator" name="PAC-man/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="PAC-man/android_packages_apps_Calendar" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" />
@@ -330,6 +328,7 @@
 
   <!-- Domination -->
   <project path="packages/apps/Phone" name="Domination-42/android_packages_apps_Phone" revision="Domination" />
+  <project path="packages/apps/Calculator" name="Domination-42/android_packages_apps_Calculator" revision="Domination" />
   <project path="packages/apps/Camera" name="Domination-42/android_packages_apps_Camera" revision="Domination" />
   <project path="packages/apps/Settings" name="Domination-42/android_packages_apps_Settings" revision="Domination" />
   <project path="packages/apps/Browser" name="Domination-42/android_packages_apps_Browser" revision="Domination" />
@@ -349,6 +348,7 @@
   <project path="frameworks/compile/mclinker" name="Domination-42/android_frameworks_compile_mclinker" revision="Domination" />
   <project path="frameworks/base" name="Domination-42/android_frameworks_base" revision="Domination" />
   <project path="frameworks/opt/telephony" name="Domination-42/android_frameworks_opt_telephony" revision="Domination" />
+  <project path="external/freetype" name="Domination-42/android_external_freetype" revision="Domination" />
   <project path="external/webkit" name="Domination-42/android_external_webkit" revision="Domination" />
   <project path="external/openssh" name="Domination-42/android_external_openssh" revision="Domination" />
   <project path="external/v8" name="Domination-42/android_external_v8" revision="Domination" />
