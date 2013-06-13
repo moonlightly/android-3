@@ -333,6 +333,7 @@
   <project path="packages/apps/HwaSettings" name="Domination-42/android_packages_apps_HwaSettings" revision="Domination" />
   <project path="packages/apps/Mms" name="Domination-42/android_packages_apps_Mms" revision="Domination" />
   <project path="packages/apps/PackageInstaller" name="Domination-42/packages_apps_PackageInstaller" revision="Domination" />
+  <project path="packages/apps/HALO" name="Domination-42/android_packages_apps_HALO" revision="Domination" />
   <project path="packages/wallpapers/LivePicker" name="Domination-42/android_packages_wallpapers_LivePicker" revision="Domination" />
   <project path="packages/providers/MediaProvider" name="Domination-42/android_packages_providers_MediaProvider" revision="Domination" />
   <project path="dalvik" name="Domination-42/android_dalvik" revision="Domination" />
