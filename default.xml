@@ -20,7 +20,7 @@
            sync-j="4" />
 
   <!-- CM -->
-  <project path="build" name="Domination-42/android_build" revision="Domination">
+  <project path="build" name="Domination-42/android_build" revision="domination-4.8">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
@@ -227,7 +227,7 @@
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" />
+  <project path="packages/apps/Launcher2" name="VanirAOSP/platform_packages_apps_Launcher2" remote="github" revision="jb42" />
   <project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
@@ -321,8 +321,6 @@
   <project path="packages/apps/Calendar" name="PAC-man/android_packages_apps_Calendar" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" />
-
-  <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
   <project path="packages/inputmethods/LatinIME" name="PAC-man/android_packages_inputmethods_LatinIME" />
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
 
