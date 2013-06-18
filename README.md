@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the domination trees, use a command like this:
 
-    repo init -u git://github.com/Domination-42/android.git -b Domination
+    repo init -u git://github.com/Domination-42/android.git -b domination-4.8
 
 To sync up:
 

@@ -26,7 +26,7 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="development" name="CyanogenMod/android_development" />
+  <project path="development" name="Domination-42/android_development" revision="domination-4.8" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
@@ -49,7 +49,7 @@
   <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" />
   <project path="external/arduino" name="CyanogenMod/android_external_arduino" />
   <project path="external/astl" name="CyanogenMod/android_external_astl" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" />
+  <project path="external/bash" name="Domination-42/android_external_bash" revision="domination-4.8" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
@@ -58,7 +58,7 @@
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" />
   <project path="external/cibu-fonts" name="CyanogenMod/android_external_cibu-fonts" />
-  <project path="external/clang" name="CyanogenMod/android_external_clang" />
+  <project path="external/clang" name="Domination-42/android_external_clang" revision="domination-4.8" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" />
   <project path="external/dbus" name="CyanogenMod/android_external_dbus" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
@@ -132,7 +132,7 @@
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/markdown" name="CyanogenMod/android_external_markdown" />
   <project path="external/mdnsresponder" name="CyanogenMod/android_external_mdnsresponder" />
-  <project path="external/mesa3d" name="CyanogenMod/android_external_mesa3d" />
+  <project path="external/mesa3d" name="Domination-42/android_external_mesa3d" revision="domination-4.8" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" />
   <project path="external/mockwebserver" name="CyanogenMod/android_external_mockwebserver" />
   <project path="external/mp4parser" name="CyanogenMod/android_external_mp4parser" />
@@ -331,7 +331,7 @@
   <project path="packages/apps/Calculator" name="Domination-42/android_packages_apps_Calculator" revision="Domination" />
   <project path="packages/apps/Camera" name="Domination-42/android_packages_apps_Camera" revision="Domination" />
   <project path="packages/apps/Bluetooth" name="Domination-42/android_packages_apps_Bluetooth" revision="Domination" />
-  <project path="packages/apps/Settings" name="Domination-42/android_packages_apps_Settings" revision="Domination" />
+  <project path="packages/apps/Settings" name="Domination-42/android_packages_apps_Settings" revision="domination-4.8" />
   <project path="packages/apps/Browser" name="Domination-42/android_packages_apps_Browser" revision="Domination" />
   <project path="packages/apps/HwaSettings" name="Domination-42/android_packages_apps_HwaSettings" revision="Domination" />
   <project path="packages/apps/Mms" name="Domination-42/android_packages_apps_Mms" revision="Domination" />
@@ -341,16 +341,16 @@
   <project path="packages/providers/MediaProvider" name="Domination-42/android_packages_providers_MediaProvider" revision="Domination" />
   <project path="dalvik" name="Domination-42/android_dalvik" revision="Domination" />
   <project path="libcore" name="Domination-42/android_libcore" revision="Domination" />
-  <project path="bionic" name="Domination-42/android_bionic" revision="Domination" />
+  <project path="bionic" name="Domination-42/android_bionic" revision="domination-4.8" />
   <project path="system/core" name="Domination-42/android_system_core" revision="Domination" />
   <project path="system/security" name="Domination-42/android_system_security" revision="Domination" />
-  <project path="frameworks/native" name="Domination-42/android_frameworks_native" revision="Domination" />
-  <project path="frameworks/ex" name="Domination-42/android_frameworks_ex" revision="Domination" />
+  <project path="frameworks/native" name="Domination-42/android_frameworks_native" revision="domination-4.8" />
+  <project path="frameworks/ex" name="Domination-42/android_frameworks_ex" revision="domination-4.8" />
   <project path="frameworks/av" name="Domination-42/android_frameworks_av" revision="Domination" />
-  <project path="frameworks/rs" name="Domination-42/android_frameworks_rs" revision="Domination" />
+  <project path="frameworks/rs" name="Domination-42/android_frameworks_rs" revision="domination-4.8" />
   <project path="frameworks/wilhelm" name="Domination-42/android_frameworks_wilhelm" revision="Domination" />
   <project path="frameworks/compile/mclinker" name="Domination-42/android_frameworks_compile_mclinker" revision="Domination" />
-  <project path="frameworks/base" name="Domination-42/android_frameworks_base" revision="Domination" />
+  <project path="frameworks/base" name="Domination-42/android_frameworks_base" revision="domination-4.8" />
   <project path="frameworks/opt/telephony" name="Domination-42/android_frameworks_opt_telephony" revision="Domination" />
   <project path="external/freetype" name="Domination-42/android_external_freetype" revision="Domination" />
   <project path="external/webkit" name="Domination-42/android_external_webkit" revision="Domination" />
