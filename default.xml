@@ -245,6 +245,7 @@
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
+  <project path="packages/apps/DashClock" name="Domination-42/packages_apps_DashClock" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
