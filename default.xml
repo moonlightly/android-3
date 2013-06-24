@@ -350,6 +350,7 @@
   <project path="frameworks/compile/mclinker" name="Domination-42/android_frameworks_compile_mclinker" revision="Domination" />
   <project path="frameworks/base" name="Domination-42/android_frameworks_base" revision="Domination" />
   <project path="frameworks/opt/telephony" name="Domination-42/android_frameworks_opt_telephony" revision="Domination" />
+  <project path="hardware/qcom/audio-caf" name="Domination-42/android_hardware_qcom_audio-caf" revision="Domination" />
   <project path="external/freetype" name="Domination-42/android_external_freetype" revision="Domination" />
   <project path="external/webkit" name="Domination-42/android_external_webkit" revision="Domination" />
   <project path="external/openssh" name="Domination-42/android_external_openssh" revision="Domination" />
@@ -388,7 +389,6 @@
 
   <!-- qcom -->
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
