@@ -323,6 +323,7 @@
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" />
   <project path="packages/inputmethods/LatinIME" name="PAC-man/android_packages_inputmethods_LatinIME" />
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
+  <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" /> 
 
   <!-- Domination -->
   <project path="packages/apps/Phone" name="Domination-42/android_packages_apps_Phone" revision="Domination" />
