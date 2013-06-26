@@ -329,7 +329,7 @@
   <project path="packages/apps/Calculator" name="Domination-42/android_packages_apps_Calculator" revision="Domination" />
   <project path="packages/apps/Camera" name="Domination-42/android_packages_apps_Camera" revision="Domination" />
   <project path="packages/apps/Bluetooth" name="Domination-42/android_packages_apps_Bluetooth" revision="Domination" />
-  <project path="packages/apps/Settings" name="Domination-42/android_packages_apps_Settings" revision="domination-4.8" />
+  <project path="packages/apps/Settings" name="Domination-42/android_packages_apps_Settings" revision="Domination" />
   <project path="packages/apps/Browser" name="Domination-42/android_packages_apps_Browser" revision="Domination" />
   <project path="packages/apps/HwaSettings" name="Domination-42/android_packages_apps_HwaSettings" revision="Domination" />
   <project path="packages/apps/Mms" name="Domination-42/android_packages_apps_Mms" revision="Domination" />
@@ -348,7 +348,7 @@
   <project path="frameworks/rs" name="Domination-42/android_frameworks_rs" revision="domination-4.8" />
   <project path="frameworks/wilhelm" name="Domination-42/android_frameworks_wilhelm" revision="Domination" />
   <project path="frameworks/compile/mclinker" name="Domination-42/android_frameworks_compile_mclinker" revision="Domination" />
-  <project path="frameworks/base" name="Domination-42/android_frameworks_base" revision="domination-4.8" />
+  <project path="frameworks/base" name="Domination-42/android_frameworks_base" revision="Domination" />
   <project path="frameworks/opt/telephony" name="Domination-42/android_frameworks_opt_telephony" revision="Domination" />
   <project path="external/freetype" name="Domination-42/android_external_freetype" revision="Domination" />
   <project path="external/webkit" name="Domination-42/android_external_webkit" revision="Domination" />
