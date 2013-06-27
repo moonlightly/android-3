@@ -401,7 +401,6 @@
 
   <!-- AOKP-->
   <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" revision="jb-mr1" />
-  <project path="packages/apps/PermissionsManager" name="AOKP/packages_apps_PermissionsManager" revision="jb-mr1" />
 
 
   <!-- Device extras: legacy support -->
