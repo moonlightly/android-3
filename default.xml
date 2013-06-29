@@ -389,6 +389,7 @@
   <!-- qcom -->
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
+  <project path="hardware/qcom/media-caf" name="VanirAOSP/android_hardware_qcom_media-caf" revision="jb42" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
