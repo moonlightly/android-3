@@ -383,7 +383,7 @@
   </project>
 
   <!-- qcom domination -->
-  <project path="hardware/qcom/media" name="Domination-42/android_hardware_qcom_media" revision="Domination" />
+  <project path="hardware/qcom/media" name="VanirAOSP/android_hardware_qcom_media" revision="jb42" />
   <project path="hardware/qcom/display-caf" name="Domination-42/android_hardware_qcom_display-caf" revision="Domination" />
 
   <!-- qcom -->
