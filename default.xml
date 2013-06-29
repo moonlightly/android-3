@@ -397,7 +397,7 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
-  <project path="hardware/qcom/audio-caf" name="Domination-42/android_hardware_qcom_audio-caf" revision="av-test" />
+  <project path="hardware/qcom/audio-caf" name="Domination-42/android_hardware_qcom_audio-caf" revision="Domination" />
 
   <!-- AOKP-->
   <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" revision="jb-mr1" />
