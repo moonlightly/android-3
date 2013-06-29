@@ -117,7 +117,6 @@
   <project path="external/libogg" name="CyanogenMod/android_external_libogg" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
   <project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" />
@@ -209,7 +208,6 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
@@ -351,6 +349,7 @@
   <project path="frameworks/base" name="Domination-42/android_frameworks_base" revision="Domination" />
   <project path="frameworks/opt/telephony" name="Domination-42/android_frameworks_opt_telephony" revision="Domination" />
   <project path="external/freetype" name="Domination-42/android_external_freetype" revision="Domination" />
+  <project path="hardware/msm7k" name="Domination-42/android_hardware_msm7k" revision="jb2" />
   <project path="external/webkit" name="Domination-42/android_external_webkit" revision="Domination" />
   <project path="external/openssh" name="Domination-42/android_external_openssh" revision="Domination" />
   <project path="external/v8" name="Domination-42/android_external_v8" revision="Domination" />
@@ -365,6 +364,7 @@
   <project path="external/chromium" name="Domination-42/android_external_chromium" revision="Domination" />
   <project path="external/busybox" name="Domination-42/android_external_busybox" revision="Domination" />
   <project path="external/openvpn" name="Domination-42/android_external_openvpn" revision="Domination" />
+  <project path="external/libpng" name="Domination-42/android_external_libpng" revision="Domination" />
   <project path="external/llvm" name="Domination-42/android_external_llvm" revision="Domination" />
   <project path="external/bluetooth/bluedroid" name="Domination-42/android_external_bluetooth_bluedroid" revision="Domination" />
   <project path="external/lsof" name="Domination-42/android_external_lsof" revision="Domination" />
