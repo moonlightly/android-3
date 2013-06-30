@@ -385,11 +385,12 @@
   <!-- qcom domination -->
   <project path="hardware/qcom/media" name="VanirAOSP/android_hardware_qcom_media" revision="jb42" />
   <project path="hardware/qcom/display-caf" name="Domination-42/android_hardware_qcom_display-caf" revision="Domination" />
+  <project path="hardware/qcom/audio-caf" name="Domination-42/android_hardware_qcom_audio-caf" revision="Domination" />
+  <project path="hardware/qcom/media-caf" name="Domination-42/android_hardware_qcom_media-caf" revision="Domination" />
 
   <!-- qcom -->
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
-  <project path="hardware/qcom/media-caf" name="VanirAOSP/android_hardware_qcom_media-caf" revision="jb42" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
@@ -398,7 +399,6 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
-  <project path="hardware/qcom/audio-caf" name="Domination-42/android_hardware_qcom_audio-caf" revision="Domination" />
 
   <!-- AOKP-->
   <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" revision="jb-mr1" />
